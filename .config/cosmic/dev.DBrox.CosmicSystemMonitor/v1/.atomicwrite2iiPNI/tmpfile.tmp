@@ -1,0 +1,40 @@
+[
+    CPU((
+        update_interval: 1000,
+        samples: 60,
+        color: accent_blue,
+        aspect_ratio: 1.5,
+    )),
+    RAM((
+        update_interval: 2000,
+        samples: 30,
+        color: accent_green,
+        aspect_ratio: 1.5,
+    )),
+    Swap((
+        update_interval: 5000,
+        samples: 12,
+        color: accent_purple,
+        aspect_ratio: 1.5,
+    )),
+    Net((
+        update_interval: 1000,
+        samples: 60,
+        color_up: accent_yellow,
+        color_down: accent_red,
+        aspect_ratio: 1.5,
+    )),
+    Disk((
+        update_interval: 2000,
+        samples: 30,
+        color_read: accent_orange,
+        color_write: accent_pink,
+        aspect_ratio: 1.5,
+    )),
+    VRAM((
+        update_interval: 2000,
+        samples: 30,
+        color: accent_indigo,
+        aspect_ratio: 1.5,
+    )),
+]

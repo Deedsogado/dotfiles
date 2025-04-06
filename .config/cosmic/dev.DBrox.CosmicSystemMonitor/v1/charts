@@ -1,0 +1,28 @@
+[
+    CPU((
+        update_interval: 500,
+        samples: 30,
+        color: neutral_8,
+        aspect_ratio: 1.618,
+    )),
+    RAM((
+        update_interval: 500,
+        samples: 30,
+        color: neutral_8,
+        aspect_ratio: 1.618,
+    )),
+    Disk((
+        update_interval: 500,
+        samples: 30,
+        color_read: neutral_8,
+        color_write: neutral_0,
+        aspect_ratio: 1.618,
+    )),
+    Net((
+        update_interval: 500,
+        samples: 30,
+        color_up: neutral_0,
+        color_down: neutral_8,
+        aspect_ratio: 1.618,
+    )),
+]

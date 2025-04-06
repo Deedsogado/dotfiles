@@ -1,0 +1,9 @@
+[
+    Home,
+    Documents,
+    Downloads,
+    Music,
+    Pictures,
+    Videos,
+    Path("/run/user/1000/gvfs/sftp:host=192.168.1.20/home/share"),
+]
